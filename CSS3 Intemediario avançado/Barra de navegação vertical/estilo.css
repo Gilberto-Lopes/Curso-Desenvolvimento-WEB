@@ -1,0 +1,44 @@
+/*Barra de navegação vertical*/
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	background: #f7b600 url(imagens/menu.png) no-repeat left bottom;
+	line-height: 40px;
+}
+
+a:hover{
+	background-position: right bottom;
+	background-color:#f99200 ;
+	color: #fff;
+}
+#home #navegaçã-lateral .home a,
+#sobre #navegaçã-lateral .sobre a,
+#serviços #navegaçã-lateral .serviços a,
+#notícias #navegaçã-lateral .notícias a,
+#contatos #navegaçã-lateral .contatos a{
+	background-position: right bottom;
+	background-color:#f99200 ;
+	color: #fff;
+
+}
+
+/*li{
+	padding: 5px 20px;
+	background: url(imagens/seta.png)
+	no-repeat left center;
+}*/
+
+

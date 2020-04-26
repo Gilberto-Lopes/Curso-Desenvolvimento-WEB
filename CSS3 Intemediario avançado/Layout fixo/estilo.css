@@ -1,0 +1,96 @@
+
+/*layout fixo*/
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container{
+	width: 720px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#marca{
+	height: 100px;
+	background: #9e9e9e;
+	text-align: center;
+	line-height: 100px;
+}
+#conteudo{
+	width: 520px;
+	float: right;
+}
+#conteudo-principal{
+	width: 320px;
+	float: left;
+}
+#conteudo-secundario{
+		width: 180px;
+	float: right;
+	background: #b1b1b1;
+}
+#conteudo-secundario h2, p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#navegação{
+	width: 180px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #d1d1d1;
+}
+
+#rodape{clear: both;
+background: #c4c4c4
+padding:5px;
+}
+
+
+/*Barra de navegação vertical*/
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+
+ul a{
+	width: 180px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	background: #f7b600 url(imagens/menu.png) no-repeat left bottom;
+	line-height: 40px;
+}
+
+a:hover{
+	background-position: right bottom;
+	background-color:#f99200 ;
+	color: #fff;
+}
+#home #navegaçã-lateral .home a,
+#sobre #navegaçã-lateral .sobre a,
+#serviços #navegaçã-lateral .serviços a,
+#notícias #navegaçã-lateral .notícias a,
+#contatos #navegaçã-lateral .contatos a{
+	background-position: right bottom;
+	background-color:#f99200 ;
+	color: #fff;
+
+}
+
+/*li{
+	padding: 5px 20px;
+	background: url(imagens/seta.png)
+	no-repeat left center;
+}*/
+
+

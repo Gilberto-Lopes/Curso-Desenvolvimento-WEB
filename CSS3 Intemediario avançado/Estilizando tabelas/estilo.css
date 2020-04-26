@@ -1,0 +1,38 @@
+/*estilizando tabela*/
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table{
+	width: 600px;
+	border-collapse: separate;/*collapse*/
+
+
+}
+
+th, td{
+
+	padding: 7px;
+}
+
+th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.2em;
+}
+
+tr.anlterna{
+	background: #efefef;
+}
+
+.numero{
+	text-align: right;
+}
+
+tr:hover{
+	background-color: #c3c6e5;
+}
