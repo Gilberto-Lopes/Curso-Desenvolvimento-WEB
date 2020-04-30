@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transições</title>
+	<meta charset="utf-8">
+
+	<!--Estilo Customizado-->
+	<style type="text/css">
+		#conteudo{
+			background: #dcdcdc;
+			width: 900px;
+			height: 400px;
+			display: flex;
+
+			/* row | row-reverse | column | column-reverse */
+			/*flex-direction: row;*/
+
+			/* nowrap | rap | */
+
+			/*flex-wrap: nowrap;*/
+
+			/**/
+			/*justify-content: flex-start;*/
+			/*justify-content: flex-end;*/
+			/*justify-content: center;*/
+			/*justify-content: space-between;*/
+			/*justify-content: space-around;*/
+
+			/*align-items: stretch;*/
+			/*align-items: center;*/
+			/*align-items: flex-start;*/
+			/*align-items: flex-end;*/
+			/*align-items: baseline;*/
+
+		}
+
+
+		
+
+		.item{
+			width: 100px;
+			height: 100px;
+			margin:10px;
+			background: white;
+			border:1px solid grey;
+
+			
+		}
+
+		.ordem1{
+			order: 1;
+		}
+		.ordem2{
+			order: 2;				
+		}
+		.ordem3{
+			order: 3;
+		}
+		.ordem4{
+			order: 4;			
+		}
+		.ordem{
+			order: -1;			
+		}
+
+	</style>
+
+
+	</style>
+
+</head>
+
+	<body>
+		<h1>Flex Box</h1>	
+		<div id="conteudo">
+			<div class="item" >01</div>
+			<div class="item ordem"  >02</div>
+			<div class="item" >03</div>
+			<div class="item">04</div>
+			
+
+		</div>
+
+
+
+	</body>
+</html>
